@@ -7,3 +7,5 @@
 /build
 /captures
 .externalNativeBuild
+将删除 .idea/
+将删除 gradle/
