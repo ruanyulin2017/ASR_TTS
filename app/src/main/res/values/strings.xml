@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">语音助手</string>
+    <string name="version">version 1.0</string>
+    <string name="appId">9981566</string>
+    <string name="apikey">gT0SvLuw0qYVt6MIHdYEwSov</string>
+    <string name="secretkey">0cea5edd47a78f511f9ab95afff88480</string>
+</resources>

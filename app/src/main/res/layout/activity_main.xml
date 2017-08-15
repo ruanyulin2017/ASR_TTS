@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ruanyulin.asr_tts.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/texx"
+        android:layout_marginLeft="2dp"
+        android:layout_gravity="center"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        app:elevation="6dp"
+        app:fabSize="auto"
+        app:backgroundTint="#d1d1d1"
+        app:pressedTranslationZ="10dp"
+        app:rippleColor="#949494"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|center"
+        android:layout_margin="15dp"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+         />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_setting"
+        app:elevation="6dp"
+        app:fabSize="mini"
+        app:backgroundTint="#fcfcfc"
+        app:pressedTranslationZ="10dp"
+        app:rippleColor="#949494"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="end"
+        android:layout_margin="8dp"
+        app:srcCompat="@android:drawable/ic_menu_help"
+        />
+
+</FrameLayout>
